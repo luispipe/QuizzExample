@@ -16,6 +16,9 @@
             android:name=".ShowResultActivity"
             android:exported="false" />
         <activity
+            android:name=".QuestionThreeActivity"
+            android:exported="false" />
+        <activity
             android:name=".QuestionTwoActivity"
             android:exported="false" />
         <activity

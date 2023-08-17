@@ -39,7 +39,7 @@
 
     <TableLayout
         android:id="@+id/TableResult"
-        android:layout_width="384dp"
+        android:layout_width="match_parent"
         android:layout_height="270dp"
         android:layout_marginTop="20dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -49,7 +49,8 @@
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:gravity="center">
 
             <TextView
                 android:id="@+id/textViewAns1"
@@ -57,7 +58,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:background="#60F2E5"
-                android:text="Pregunta 1"
+                android:text="Respuesta 1"
+                android:textAlignment="center"
                 android:textSize="16sp"
                 android:textStyle="bold" />
 
@@ -67,7 +69,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:background="#60F2E5"
-                android:text="Pregunta 2"
+                android:text="Respuesta 2"
+                android:textAlignment="center"
                 android:textSize="16sp"
                 android:textStyle="bold" />
 
@@ -77,7 +80,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:background="#60F2E5"
-                android:text="Pregunta 3"
+                android:text="Respuesta 3"
+                android:textAlignment="center"
                 android:textSize="16sp"
                 android:textStyle="bold" />
 
@@ -88,6 +92,7 @@
                 android:layout_weight="1"
                 android:background="#60F2E5"
                 android:text="Calificación"
+                android:textAlignment="center"
                 android:textSize="16sp"
                 android:textStyle="bold" />
         </TableRow>
